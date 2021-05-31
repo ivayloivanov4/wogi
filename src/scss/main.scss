@@ -1,0 +1,19 @@
+@import "bulma";
+
+.shadow{
+  -webkit-box-shadow: 0px 0px 2px 1px rgba(30,34,38,0.2);
+  box-shadow: 0px 0px 2px 1px rgba(30,34,38,0.2);
+}
+.border{
+  border: 1px solid $grey;
+}
+.is-size-14{
+  font-size: 14px;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.mr-20{
+  margin-right: 1.25rem;
+}
+@import "../../node_modules/buefy/src/scss/buefy";
